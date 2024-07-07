@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: left;
+}
+
+.steps {
+    font-size: 25px;
+}
+
+.steps ol {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f90;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+    flex-direction: column;
+    justify-content: center;
+}
+.button:hover {
+    background-color: #e68a00;
+}
+.button:active {
+    background-color: #e68a00;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+.neuroscience h2{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.neuroscience p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.outfits h2 {
+    margin-top: 20px;
+}
+
+.examples {
+    display: flex;
+    justify-content: space-around;
+}
+
+.example p {
+    text-align: center;
+    font-size: 16px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
