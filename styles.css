@@ -12,10 +12,12 @@ body, html {
     box-sizing: border-box;
 }
 
+
 header {
     background-color: #f4f4f4;
-    padding: 10px;
-    text-align: left;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
 }
 
 .steps {
@@ -106,5 +108,69 @@ img {
 
 .fine {
     text-align: center;
-    font-size: 12px;
+    size: 12px;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Stili per il menu laterale */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Nasconde il menu laterale inizialmente */
+    width: 250px;
+    height: 100%;
+    background-color: #111;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    padding-top: 60px; /* Altezza dell'header */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar ul li a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    font-size: 1.1rem;
+}
+
+.sidebar ul li a:hover {
+    color: #fff;
+}
+
+/* Stili per il contenuto principale */
+main {
+    margin-left: 250px; /* Larghezza del menu laterale */
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Allinea gli elementi su entrambi i lati */
+    width: 100%; /* Occupa tutta la larghezza dell'header */
+}
+
+
+.header-container h1 {
+    margin: 0; /* Rimuove il margine predefinito */
+    font-size: 1.5rem;
+}
+
+/* Stili per l'icona del menu */
+.menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
 }
