@@ -1,0 +1,157 @@
+/* Stili di base per tutto lo schermo */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Media query per adattarsi a schermi più piccoli come iPhone 13 */
+@media (max-width: 414px) {
+    body {
+        font-size: 14px;
+    }
+    /* Altri stili specifici per schermi più piccoli */
+}
+.header {
+    display: flex;
+    justify-content: space-between; /* Per allineare elementi ai margini sinistro e destro */
+    align-items: center; /* Per centrare verticalmente gli elementi */
+    padding: 10px 20px; /* Padding per spaziatura interna */
+    background-color: #333; /* Colore di sfondo dell'header */
+    color: #fff; /* Colore del testo */
+}
+
+.header-left {
+    /* Allineamento dell'elemento sinistro (nome dell'app) */
+    flex: 1; /* Flessibilità per occupare lo spazio disponibile */
+    font-size: 28px;
+}
+
+.header-right {
+    /* Allineamento dell'elemento destro (icona del menu) */
+    display: flex; /* Utilizziamo flexbox per allineare l'icona del menu */
+    justify-content: flex-end; /* Allinea gli elementi verso il lato destro */
+    align-items: center; /* Centra verticalmente gli elementi */
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em; /* Dimensione del testo dell'icona del menu */
+    color: #fff; /* Colore dell'icona */
+    margin-left: auto; /* Spinge l'icona del menu verso il margine destro */
+}
+
+.menu-button:focus {
+    outline: none; /* Rimuove l'outline di default sul focus */
+}
+
+.hamburger-icon {
+    /* Stili per l'icona del menu (puoi personalizzare l'aspetto come preferisci) */
+}
+
+.procedimento {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.procedimento h1{
+    font-size: 25px;
+}
+
+.procedimento ol {
+    font-size: 25px;
+}
+
+.button-container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.button {
+    background-color: #ffc107; /* Colore di sfondo giallo */
+    color: #fff; /* Colore del testo bianco */
+    border: none; /* Rimuove il bordo */
+    padding: 10px 20px; /* Padding interno al bottone */
+    font-size: 1.2em; /* Dimensione del testo */
+    cursor: pointer; /* Cambia il cursore al passaggio */
+    border-radius: 10px; /* Bordo squadrato */
+    outline: none; /* Rimuove l'outline di default */
+}
+
+.button:hover {
+    background-color: #ffa000; /* Colore di sfondo giallo più scuro al passaggio */
+}
+
+.neuroscienze {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.neuroscienze h1 {
+    font-size: 25px;
+    padding-top: 300px;
+}
+
+.neuroscienze p {
+    font-size: 20px;
+}
+
+.scopri {
+    text-align: center;
+}
+
+.scopri h1 {
+    font-size: 25px;
+    padding-top: 80px;
+}
+
+.scopri h2 {
+    font-size: 28px;
+}
+
+.distinguersi {
+    text-align: left;
+}
+
+.distinguersi h1 {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button-container2 {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.outfit {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.outfit h1 {
+    font-size: 25px;
+}
+
+.outfit p {
+    font-size: 20px;
+}
+
+.outfit img {
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.footer {
+ text-align: center;
+ padding-top: 20px;
+}
+
+.footer p {
+    font-size: 15px;
+}
